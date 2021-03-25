@@ -1,9 +1,11 @@
-var informacion = (codigo, codigo1, nombre, Nombre1, NumeroNave, NumeroNave1) => {
+var informacion = (codigo,codigo1,nombre,Nombre1,NumeroNave,NumeroNave1) => {
      
-    var todo = codigo+codigo1+nombre+Nombre1+NumeroNave+NumeroNave1;
-    return todo;
+    var datos = codigo+codigo1+ 
+        nombre+Nombre1+ 
+        NumeroNave+NumeroNave1;
+        console.log(datos);
 }
-console.log(informacion("Codigo: ","QWER123 ", "  Nombre: ", "Alkivar ", "  Numero Nave: ", "11 "));
-console.log(informacion("Codigo: ","QWES555 ", "  Nombre: ", "Carlos  ", "  Numero Nave: ", "22 " ));
-console.log(informacion("Codigo: ","ASDF121 ", "  Nombre: ", "Lukas ", "  Numero Nave: ", "2100 "));                 
+        informacion('Codigo  ','QWER123  ', 'Nombre  ', 'Alkivar  ', 'NumeroNave  ', '2222');
+        informacion('Codigo  ','ASDF134  ', 'Nombre  ', 'Carlos  ', 'NumeroNave  ', '3333');
+        informacion('Codigo  ','QZXCVBG  ', 'Nombre  ', 'lukas  ', 'NumeroNave  ', '43242');              
 
